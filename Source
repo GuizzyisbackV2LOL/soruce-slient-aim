@@ -1,4 +1,4 @@
-f getgenv().Aiming then return getgenv().Aiming end
+if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Services
 local Players = game:GetService("Players")
